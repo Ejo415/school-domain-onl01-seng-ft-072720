@@ -14,7 +14,7 @@ class School
     if roster.include?(grade) == false
       @roster[grade] = []
     end
-    @roster[grade] << name 
+    @roster[grade] << student  
   end
   
   def grade(number)
